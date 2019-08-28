@@ -11,6 +11,11 @@
   "author": "Jon Lauridsen <mail@jonlauridsen.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^12.7.2",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.2.2",
+    "eslint-plugin-import": "^2.18.2",
     "typescript": "^3.6.2"
   }
 }
