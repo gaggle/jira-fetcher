@@ -1,0 +1,16 @@
+{
+  "name": "jira-printer",
+  "version": "0.0.0",
+  "description": "Print Jira issues",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsc && node src/index.js",
+    "build": "tsc --outDir bin",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Lauridsen <mail@jonlauridsen.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.6.2"
+  }
+}
