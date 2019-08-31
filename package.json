@@ -2,20 +2,58 @@
   "name": "jira-printer",
   "version": "0.0.0",
   "description": "Print Jira issues",
-  "main": "src/index.ts",
+  "main": "build/index.js",
+  "bin": {
+    "jiraprint": "build/cli.js"
+  },
   "scripts": {
-    "start": "tsc && node src/index.js",
-    "build": "tsc --outDir bin",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon -e .ts -w src -x 'npm run build && node build/cli.js'",
+    "build": "npm run clean && tsc -p . && cp src/svg-templating/*.liquid build/svg-templating/",
+    "test": "nyc mocha && tsc --noEmit && npm run lint",
+    "test:watch": "nodemon -e .ts -w src -x 'npm test'",
+    "clean": "rm -rf .nyc_output build coverage",
+    "lint": "eslint --ext .ts src",
+    "fix": "npm run lint -- --fix"
   },
   "author": "Jon Lauridsen <mail@jonlauridsen.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/commonmark": "^0.27.4",
+    "@types/mocha": "^5.2.7",
     "@types/node": "^12.7.2",
-    "@typescript-eslint/eslint-plugin": "^2.0.0",
-    "@typescript-eslint/parser": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.1.0",
+    "@typescript-eslint/parser": "^2.1.0",
+    "assert": "^2.0.0",
+    "commander": "^3.0.0",
+    "commonmark": "^0.29.0",
     "eslint": "^6.2.2",
     "eslint-plugin-import": "^2.18.2",
-    "typescript": "^3.6.2"
+    "liquidjs": "^9.0.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.2",
+    "nyc": "^14.1.1",
+    "source-map-support": "^0.5.13",
+    "ts-node": "^8.3.0",
+    "typescript": ">=3.2.1 <3.6.0"
+  },
+  "mocha": {
+    "spec": "**/*.spec.ts",
+    "require": [
+      "ts-node/register",
+      "source-map-support/register"
+    ],
+    "recursive": true
+  },
+  "nyc": {
+    "extension": [
+      ".ts"
+    ],
+    "reporter": [
+      "html",
+      "text"
+    ],
+    "require": "ts-node/register",
+    "include": ["src"],
+    "all": true
   }
 }

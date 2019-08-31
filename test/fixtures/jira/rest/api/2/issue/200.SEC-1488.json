@@ -1,0 +1,1263 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "95900",
+  "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/95900",
+  "key": "SEC-1488",
+  "fields": {
+    "customfield_14432": {
+      "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/customFieldOption/12050",
+      "value": "Global",
+      "id": "12050"
+    },
+    "customfield_14433": null,
+    "customfield_14430": null,
+    "customfield_14431": null,
+    "customfield_14436": null,
+    "resolution": null,
+    "customfield_14437": null,
+    "customfield_14434": null,
+    "customfield_14435": null,
+    "customfield_14429": [],
+    "customfield_12920": {
+      "hasEpicLinkFieldDependency": false,
+      "showField": false,
+      "nonEditableReason": {
+        "reason": "PLUGIN_LICENSE_ERROR",
+        "message": "Portfolio for Jira must be licensed for the Parent Link to be available."
+      }
+    },
+    "customfield_14427": null,
+    "customfield_14428": {
+      "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/customFieldOption/12046",
+      "value": "No strict deadline",
+      "id": "12046"
+    },
+    "lastViewed": "2019-09-02T02:14:23.283-0500",
+    "customfield_14421": null,
+    "customfield_14420": null,
+    "customfield_14425": null,
+    "customfield_14423": null,
+    "customfield_14424": null,
+    "labels": [],
+    "customfield_14418": null,
+    "customfield_11820": "1|hzq6a7:007qji",
+    "customfield_14419": null,
+    "aggregatetimeoriginalestimate": null,
+    "issuelinks": [
+      {
+        "id": "75926",
+        "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issueLink/75926",
+        "type": {
+          "id": "10500",
+          "name": "Blocks",
+          "inward": "blocked by",
+          "outward": "is blocking",
+          "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issueLinkType/10500"
+        },
+        "inwardIssue": {
+          "id": "96286",
+          "key": "SEC-1499",
+          "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/96286",
+          "fields": {
+            "summary": "Deployable API service returning data from QA DB",
+            "status": {
+              "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/status/10034",
+              "description": "",
+              "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/subtask.gif",
+              "name": "Backlog",
+              "id": "10034",
+              "statusCategory": {
+                "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/priority/4",
+              "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Normal priority",
+              "id": "4"
+            },
+            "issuetype": {
+              "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issuetype/5",
+              "id": "5",
+              "description": "A user story. Created by JIRA Software - do not edit or delete.",
+              "iconUrl": "https://siteimprove-wgs.atlassian.net/secure/viewavatar?size=medium&avatarId=11035&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 11035
+            }
+          }
+        }
+      }
+    ],
+    "assignee": null,
+    "components": [],
+    "customfield_13200": null,
+    "customfield_14414": null,
+    "customfield_14415": null,
+    "customfield_14407": null,
+    "customfield_14408": null,
+    "customfield_10721": null,
+    "customfield_14405": null,
+    "customfield_14406": null,
+    "subtasks": [
+      {
+        "id": "96284",
+        "key": "SEC-1497",
+        "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/96284",
+        "fields": {
+          "summary": "Add site picker",
+          "status": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/status/10034",
+            "description": "",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/subtask.gif",
+            "name": "Backlog",
+            "id": "10034",
+            "statusCategory": {
+              "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/statuscategory/2",
+              "id": 2,
+              "key": "new",
+              "colorName": "blue-gray",
+              "name": "To Do"
+            }
+          },
+          "priority": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/priority/4",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "Normal priority",
+            "id": "4"
+          },
+          "issuetype": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issuetype/8",
+            "id": "8",
+            "description": "Sub-task",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/secure/viewavatar?size=medium&avatarId=11036&avatarType=issuetype",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 11036
+          }
+        }
+      },
+      {
+        "id": "96285",
+        "key": "SEC-1498",
+        "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/96285",
+        "fields": {
+          "summary": "Add group picker",
+          "status": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/status/10034",
+            "description": "",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/subtask.gif",
+            "name": "Backlog",
+            "id": "10034",
+            "statusCategory": {
+              "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/statuscategory/2",
+              "id": 2,
+              "key": "new",
+              "colorName": "blue-gray",
+              "name": "To Do"
+            }
+          },
+          "priority": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/priority/4",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "Normal priority",
+            "id": "4"
+          },
+          "issuetype": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issuetype/8",
+            "id": "8",
+            "description": "Sub-task",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/secure/viewavatar?size=medium&avatarId=11036&avatarType=issuetype",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 11036
+          }
+        }
+      },
+      {
+        "id": "96287",
+        "key": "SEC-1500",
+        "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/96287",
+        "fields": {
+          "summary": "Move our PFG proxy so its not specific to Domain Analyzer controller, should be GDPR applicable",
+          "status": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/status/10034",
+            "description": "",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/subtask.gif",
+            "name": "Backlog",
+            "id": "10034",
+            "statusCategory": {
+              "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/statuscategory/2",
+              "id": 2,
+              "key": "new",
+              "colorName": "blue-gray",
+              "name": "To Do"
+            }
+          },
+          "priority": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/priority/4",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "Normal priority",
+            "id": "4"
+          },
+          "issuetype": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issuetype/8",
+            "id": "8",
+            "description": "Sub-task",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/secure/viewavatar?size=medium&avatarId=11036&avatarType=issuetype",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 11036
+          }
+        }
+      },
+      {
+        "id": "96288",
+        "key": "SEC-1501",
+        "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/96288",
+        "fields": {
+          "summary": "Add new proxy route pointing to the new API service",
+          "status": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/status/10034",
+            "description": "",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/subtask.gif",
+            "name": "Backlog",
+            "id": "10034",
+            "statusCategory": {
+              "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/statuscategory/2",
+              "id": 2,
+              "key": "new",
+              "colorName": "blue-gray",
+              "name": "To Do"
+            }
+          },
+          "priority": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/priority/4",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "Normal priority",
+            "id": "4"
+          },
+          "issuetype": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issuetype/8",
+            "id": "8",
+            "description": "Sub-task",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/secure/viewavatar?size=medium&avatarId=11036&avatarType=issuetype",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 11036
+          }
+        }
+      },
+      {
+        "id": "96289",
+        "key": "SEC-1502",
+        "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/96289",
+        "fields": {
+          "summary": "Use the new proxy route in the UI to get data for the table and pie-chart graphs",
+          "status": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/status/10034",
+            "description": "",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/subtask.gif",
+            "name": "Backlog",
+            "id": "10034",
+            "statusCategory": {
+              "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/statuscategory/2",
+              "id": 2,
+              "key": "new",
+              "colorName": "blue-gray",
+              "name": "To Do"
+            }
+          },
+          "priority": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/priority/4",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "Normal priority",
+            "id": "4"
+          },
+          "issuetype": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issuetype/8",
+            "id": "8",
+            "description": "Sub-task",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/secure/viewavatar?size=medium&avatarId=11036&avatarType=issuetype",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 11036
+          }
+        }
+      },
+      {
+        "id": "96290",
+        "key": "SEC-1503",
+        "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/96290",
+        "fields": {
+          "summary": "Remove history graph",
+          "status": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/status/10034",
+            "description": "",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/subtask.gif",
+            "name": "Backlog",
+            "id": "10034",
+            "statusCategory": {
+              "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/statuscategory/2",
+              "id": 2,
+              "key": "new",
+              "colorName": "blue-gray",
+              "name": "To Do"
+            }
+          },
+          "priority": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/priority/4",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "Normal priority",
+            "id": "4"
+          },
+          "issuetype": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issuetype/8",
+            "id": "8",
+            "description": "Sub-task",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/secure/viewavatar?size=medium&avatarId=11036&avatarType=issuetype",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 11036
+          }
+        }
+      },
+      {
+        "id": "96291",
+        "key": "SEC-1504",
+        "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/96291",
+        "fields": {
+          "summary": "Create product page in Confluence and add documentation like the other product pages",
+          "status": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/status/10034",
+            "description": "",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/subtask.gif",
+            "name": "Backlog",
+            "id": "10034",
+            "statusCategory": {
+              "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/statuscategory/2",
+              "id": 2,
+              "key": "new",
+              "colorName": "blue-gray",
+              "name": "To Do"
+            }
+          },
+          "priority": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/priority/4",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "Normal priority",
+            "id": "4"
+          },
+          "issuetype": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issuetype/8",
+            "id": "8",
+            "description": "Sub-task",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/secure/viewavatar?size=medium&avatarId=11036&avatarType=issuetype",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 11036
+          }
+        }
+      },
+      {
+        "id": "96342",
+        "key": "SEC-1507",
+        "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/96342",
+        "fields": {
+          "summary": "Add file type filter ",
+          "status": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/status/10034",
+            "description": "",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/subtask.gif",
+            "name": "Backlog",
+            "id": "10034",
+            "statusCategory": {
+              "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/statuscategory/2",
+              "id": 2,
+              "key": "new",
+              "colorName": "blue-gray",
+              "name": "To Do"
+            }
+          },
+          "priority": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/priority/4",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "Normal priority",
+            "id": "4"
+          },
+          "issuetype": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issuetype/8",
+            "id": "8",
+            "description": "Sub-task",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/secure/viewavatar?size=medium&avatarId=11036&avatarType=issuetype",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 11036
+          }
+        }
+      },
+      {
+        "id": "96343",
+        "key": "SEC-1508",
+        "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/96343",
+        "fields": {
+          "summary": "Add search bar",
+          "status": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/status/10034",
+            "description": "",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/subtask.gif",
+            "name": "Backlog",
+            "id": "10034",
+            "statusCategory": {
+              "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/statuscategory/2",
+              "id": 2,
+              "key": "new",
+              "colorName": "blue-gray",
+              "name": "To Do"
+            }
+          },
+          "priority": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/priority/4",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "Normal priority",
+            "id": "4"
+          },
+          "issuetype": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issuetype/8",
+            "id": "8",
+            "description": "Sub-task",
+            "iconUrl": "https://siteimprove-wgs.atlassian.net/secure/viewavatar?size=medium&avatarId=11036&avatarType=issuetype",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 11036
+          }
+        }
+      }
+    ],
+    "reporter": {
+      "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5a9524a7d0a6df4b53436a76",
+      "name": "col",
+      "key": "col",
+      "accountId": "5a9524a7d0a6df4b53436a76",
+      "emailAddress": "col@siteimprove.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=48&s=48",
+        "24x24": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=24&s=24",
+        "16x16": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=16&s=16",
+        "32x32": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=32&s=32"
+      },
+      "displayName": "Charlotte Olsen",
+      "active": true,
+      "timeZone": "America/Chicago",
+      "accountType": "atlassian"
+    },
+    "customfield_14404": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "votes": {
+      "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/SEC-1488/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    },
+    "issuetype": {
+      "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issuetype/5",
+      "id": "5",
+      "description": "A user story. Created by JIRA Software - do not edit or delete.",
+      "iconUrl": "https://siteimprove-wgs.atlassian.net/secure/viewavatar?size=medium&avatarId=11035&avatarType=issuetype",
+      "name": "Story",
+      "subtask": false,
+      "avatarId": 11035
+    },
+    "project": {
+      "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/project/14700",
+      "id": "14700",
+      "key": "SEC",
+      "name": "Security Product",
+      "projectTypeKey": "software",
+      "simplified": false,
+      "avatarUrls": {
+        "48x48": "https://siteimprove-wgs.atlassian.net/secure/projectavatar?avatarId=12523",
+        "24x24": "https://siteimprove-wgs.atlassian.net/secure/projectavatar?size=small&s=small&avatarId=12523",
+        "16x16": "https://siteimprove-wgs.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&avatarId=12523",
+        "32x32": "https://siteimprove-wgs.atlassian.net/secure/projectavatar?size=medium&s=medium&avatarId=12523"
+      }
+    },
+    "customfield_11120": "SEC-1413",
+    "customfield_13300": null,
+    "resolutiondate": null,
+    "watches": {
+      "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/SEC-1488/watchers",
+      "watchCount": 0,
+      "isWatching": false
+    },
+    "customfield_10020": null,
+    "updated": "2019-09-02T02:15:09.987-0500",
+    "timeoriginalestimate": null,
+    "description": "Complexity: 5-13\n\nh2. Description\n\n* *Don’t send out for translation - wait til not alpha/beta*\n\nPie: The amount of Scanned files vs Files not scanned, which we have identified despite crawler limitations.\n\nTable: This page contains insights of files that exceed our crawler limits, so you can control these yourself, if you wish to do so. The files shown are those that exceed max size.\n\nOther limitations are file formats we don’t handle, password protected files, files rejected by or firewall, and files from pages, which have been excluded, but we won’t handle those cases at this point. Note that we don’t collect information about unhandled files and therefore the amount is unknown. \n\nEt voluptas necessitatibus perspiciatis est maiores quasi dolor. Et numquam iste animi eum odit quo dicta est. Unde\n\nsed dignissimos qui minima beatae adipisci aut perspiciatis. In perferendis sequi beatae qui nesciunt. Pariatur\n \nratione voluptas exercitationem dolor.\n \nDistinctio quia dolore tenetur eos. Dolorem voluptate quae non temporibus et dolorem ullam. Sint libero mollitia\n \nillum animi. Esse ab iste qui rem. Aut enim accusamus et ut odit nobis exercitationem. Cumque vitae quae quae.\n \nEaque delectus distinctio quia. Sequi quis est dignissimos quae fuga. Id deserunt necessitatibus soluta consectetur\n \net et. Voluptate id molestias autem sint est. Dicta alias incidunt cum aliquam quidem. Sit quo iusto magni qui omnis\n \nquas nostrum accusantium.\n \nQuia autem doloribus sit molestias. Delectus minus omnis et qui qui rerum laudantium. Consequuntur sit reprehenderit\n \nquia officiis aut. Voluptas dignissimos et laudantium.\n \nMaiores officia non saepe quis dolores culpa ut. Aut qui sequi maiores ea ex ea quam quaerat. Quo reiciendis qui\n \nnesciunt. Pariatur consequatur quisquam voluptate aperiam non autem ab illo. Omnis asperiores ut similique occaecati\n \nsed et quia ducimus.\n",
+    "timetracking": {},
+    "summary": "Connect table with basic \"file size too big\" customer data",
+    "customfield_12420": null,
+    "customfield_10120": null,
+    "customfield_10000": null,
+    "customfield_10001": null,
+    "customfield_10002": null,
+    "customfield_10003": null,
+    "customfield_10004": null,
+    "environment": null,
+    "duedate": null,
+    "comment": {
+      "comments": [
+        {
+          "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/95900/comment/157596",
+          "id": "157596",
+          "author": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5ae84a94b076312e0e2608b9",
+            "name": "jln",
+            "key": "jln",
+            "accountId": "5ae84a94b076312e0e2608b9",
+            "emailAddress": "jln@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=48&s=48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=24&s=24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=16&s=16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=32&s=32"
+            },
+            "displayName": "Jon Lauridsen",
+            "active": true,
+            "timeZone": "Europe/Copenhagen",
+            "accountType": "atlassian"
+          },
+          "body": "Suggestion to rephrase title to capture that we are providing only “files too big” dimension, and only via a direct and somewhat hacky way. Not sure how to best phrase that :D",
+          "updateAuthor": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5ae84a94b076312e0e2608b9",
+            "name": "jln",
+            "key": "jln",
+            "accountId": "5ae84a94b076312e0e2608b9",
+            "emailAddress": "jln@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=48&s=48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=24&s=24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=16&s=16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=32&s=32"
+            },
+            "displayName": "Jon Lauridsen",
+            "active": true,
+            "timeZone": "Europe/Copenhagen",
+            "accountType": "atlassian"
+          },
+          "created": "2019-08-19T05:45:58.001-0500",
+          "updated": "2019-08-19T05:45:58.001-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/95900/comment/157731",
+          "id": "157731",
+          "author": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5a9524a7d0a6df4b53436a76",
+            "name": "col",
+            "key": "col",
+            "accountId": "5a9524a7d0a6df4b53436a76",
+            "emailAddress": "col@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=32&s=32"
+            },
+            "displayName": "Charlotte Olsen",
+            "active": true,
+            "timeZone": "America/Chicago",
+            "accountType": "atlassian"
+          },
+          "body": "May might be our help on this one [~accountid:5ae84a94b076312e0e2608b9] 😃 ",
+          "updateAuthor": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5a9524a7d0a6df4b53436a76",
+            "name": "col",
+            "key": "col",
+            "accountId": "5a9524a7d0a6df4b53436a76",
+            "emailAddress": "col@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=32&s=32"
+            },
+            "displayName": "Charlotte Olsen",
+            "active": true,
+            "timeZone": "America/Chicago",
+            "accountType": "atlassian"
+          },
+          "created": "2019-08-20T02:32:43.187-0500",
+          "updated": "2019-08-20T02:32:43.187-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/95900/comment/157754",
+          "id": "157754",
+          "author": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5ae84a94b076312e0e2608b9",
+            "name": "jln",
+            "key": "jln",
+            "accountId": "5ae84a94b076312e0e2608b9",
+            "emailAddress": "jln@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=48&s=48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=24&s=24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=16&s=16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=32&s=32"
+            },
+            "displayName": "Jon Lauridsen",
+            "active": true,
+            "timeZone": "Europe/Copenhagen",
+            "accountType": "atlassian"
+          },
+          "body": "We discussed this morning what it would be like to +*not*+ do the backend SQL stuff in Pfg/Selects system.\n\n*If* we want to go down route, we would want to:\n\n* A new data store (either a new DB in current Oracle server, or our cluster, or in AWS)\n* Add an API that connects to the data-store and reponds with customer data\n* A PFG “proxy hole” to allow the front-end to request data from the API\n* A way for QA DB customer data to be copied into our data-storage (Either a QA DB trigger or function, or a polling feature in our API) _Comment by_ [~accountid:5a9524b6059b5c4b2dd15a75] : What about something triggered by a 'Crawl done' event??\n\nArguments to do our own data store:\n\n* Many issues and much developer unhappiness with PFG and Select system due to resulting SQL complexity. _Comment by_ [~accountid:5a9524b6059b5c4b2dd15a75] : Better testability. Better modularity, as we are having a MVP approach.\n\n\n\nArguments to just sticking with PFG right now:\n\n* We don’t truly *need* any sort of data store right now, whether in PFG or outside, because all we do is read an existing table…\n\n\n\n[~accountid:5c7fbcb1ea7c3712b6e21384] [~accountid:5b0feb77091e9f1711635c67] feel free to add/remove arguments",
+          "updateAuthor": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5a9524b6059b5c4b2dd15a75",
+            "name": "sha",
+            "key": "sha",
+            "accountId": "5a9524b6059b5c4b2dd15a75",
+            "emailAddress": "sha@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/bb40da308ebf01a2d9581112053256ce?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-3.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/bb40da308ebf01a2d9581112053256ce?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-3.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/bb40da308ebf01a2d9581112053256ce?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-3.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/bb40da308ebf01a2d9581112053256ce?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-3.png&size=32&s=32"
+            },
+            "displayName": "Søren Harder",
+            "active": true,
+            "timeZone": "Europe/Copenhagen",
+            "accountType": "atlassian"
+          },
+          "created": "2019-08-20T04:31:19.794-0500",
+          "updated": "2019-08-21T07:45:03.507-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/95900/comment/157763",
+          "id": "157763",
+          "author": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5ae84a94b076312e0e2608b9",
+            "name": "jln",
+            "key": "jln",
+            "accountId": "5ae84a94b076312e0e2608b9",
+            "emailAddress": "jln@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=48&s=48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=24&s=24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=16&s=16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=32&s=32"
+            },
+            "displayName": "Jon Lauridsen",
+            "active": true,
+            "timeZone": "Europe/Copenhagen",
+            "accountType": "atlassian"
+          },
+          "body": "Following today’s discussion I'm leaning towards just doing a select in this story, but promise ourselves that when we do the history graph or allow user actions or anything else that expands on the simple select, then we do the our own data store. That way we don’t have to use arguments like “in the future we’ll need a store”.",
+          "updateAuthor": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5ae84a94b076312e0e2608b9",
+            "name": "jln",
+            "key": "jln",
+            "accountId": "5ae84a94b076312e0e2608b9",
+            "emailAddress": "jln@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=48&s=48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=24&s=24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=16&s=16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=32&s=32"
+            },
+            "displayName": "Jon Lauridsen",
+            "active": true,
+            "timeZone": "Europe/Copenhagen",
+            "accountType": "atlassian"
+          },
+          "created": "2019-08-20T05:17:58.955-0500",
+          "updated": "2019-08-20T05:17:58.955-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/95900/comment/158041",
+          "id": "158041",
+          "author": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5b0feb77091e9f1711635c67",
+            "name": "mfer",
+            "key": "mfer",
+            "accountId": "5b0feb77091e9f1711635c67",
+            "emailAddress": "mfer@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b0feb77091e9f1711635c67/e6831dfe-9255-4bfa-98c3-4ffc0d1b9303/128?size=48&s=48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b0feb77091e9f1711635c67/e6831dfe-9255-4bfa-98c3-4ffc0d1b9303/128?size=24&s=24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b0feb77091e9f1711635c67/e6831dfe-9255-4bfa-98c3-4ffc0d1b9303/128?size=16&s=16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b0feb77091e9f1711635c67/e6831dfe-9255-4bfa-98c3-4ffc0d1b9303/128?size=32&s=32"
+            },
+            "displayName": "Mads Fersner",
+            "active": true,
+            "timeZone": "America/Chicago",
+            "accountType": "atlassian"
+          },
+          "body": "I think the most important argument to do our own data store, are those we discussed Tuesday morning - certainty that no one else changes our data, and that we can change our own formats, without fear of breaking other peoples code, as well as getting a more loosely coupled architecture.",
+          "updateAuthor": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5b0feb77091e9f1711635c67",
+            "name": "mfer",
+            "key": "mfer",
+            "accountId": "5b0feb77091e9f1711635c67",
+            "emailAddress": "mfer@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b0feb77091e9f1711635c67/e6831dfe-9255-4bfa-98c3-4ffc0d1b9303/128?size=48&s=48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b0feb77091e9f1711635c67/e6831dfe-9255-4bfa-98c3-4ffc0d1b9303/128?size=24&s=24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b0feb77091e9f1711635c67/e6831dfe-9255-4bfa-98c3-4ffc0d1b9303/128?size=16&s=16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b0feb77091e9f1711635c67/e6831dfe-9255-4bfa-98c3-4ffc0d1b9303/128?size=32&s=32"
+            },
+            "displayName": "Mads Fersner",
+            "active": true,
+            "timeZone": "America/Chicago",
+            "accountType": "atlassian"
+          },
+          "created": "2019-08-21T15:43:51.313-0500",
+          "updated": "2019-08-21T15:43:51.313-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/95900/comment/158086",
+          "id": "158086",
+          "author": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5c7fbcb1ea7c3712b6e21384",
+            "name": "removed70",
+            "key": "jje",
+            "accountId": "5c7fbcb1ea7c3712b6e21384",
+            "emailAddress": "jje@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5c7fbcb1ea7c3712b6e21384/fa28727b-59c0-467f-a013-7dd350e46625/128?size=48&s=48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5c7fbcb1ea7c3712b6e21384/fa28727b-59c0-467f-a013-7dd350e46625/128?size=24&s=24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5c7fbcb1ea7c3712b6e21384/fa28727b-59c0-467f-a013-7dd350e46625/128?size=16&s=16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5c7fbcb1ea7c3712b6e21384/fa28727b-59c0-467f-a013-7dd350e46625/128?size=32&s=32"
+            },
+            "displayName": "Jacob Jepsen",
+            "active": false,
+            "timeZone": "America/Chicago",
+            "accountType": "atlassian"
+          },
+          "body": "I have looked at and tried the [Nestjs framework|https://nestjs.com/] for making a typescript rest api. I found the experience very positive and would like to point out the following things:\n\n* It has very good documentation\n* it integrates with many technologies we might use in the future\n* it has a cli for generating template controllers, modules, ect.\n* it include a production build, watch, testing, and a few other standard commands we need\n* Everything is in typescript\n* They already support many good ways of structuring the code, including middleware, filters, exception handling, logging, ect.\n* It’s testable, and it seems to support many, if not all, of the requirements we might have for an api, listed here in this PR by Jon [https://github.com/Siteimprove/SecurityProduct/pull/965|https://github.com/Siteimprove/SecurityProduct/pull/965|smart-link]  \n\nI have followed the guide and introduction they have on their web page and created the following start project:\n\n[https://github.com/Siteimprove/SecuritySandbox/tree/master/my-nest-api|https://github.com/Siteimprove/SecuritySandbox/tree/master/my-nest-api|smart-link] ",
+          "updateAuthor": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5c7fbcb1ea7c3712b6e21384",
+            "name": "removed70",
+            "key": "jje",
+            "accountId": "5c7fbcb1ea7c3712b6e21384",
+            "emailAddress": "jje@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5c7fbcb1ea7c3712b6e21384/fa28727b-59c0-467f-a013-7dd350e46625/128?size=48&s=48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5c7fbcb1ea7c3712b6e21384/fa28727b-59c0-467f-a013-7dd350e46625/128?size=24&s=24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5c7fbcb1ea7c3712b6e21384/fa28727b-59c0-467f-a013-7dd350e46625/128?size=16&s=16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5c7fbcb1ea7c3712b6e21384/fa28727b-59c0-467f-a013-7dd350e46625/128?size=32&s=32"
+            },
+            "displayName": "Jacob Jepsen",
+            "active": false,
+            "timeZone": "America/Chicago",
+            "accountType": "atlassian"
+          },
+          "created": "2019-08-22T06:08:35.945-0500",
+          "updated": "2019-08-22T06:09:31.390-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/95900/comment/158099",
+          "id": "158099",
+          "author": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5ae84a94b076312e0e2608b9",
+            "name": "jln",
+            "key": "jln",
+            "accountId": "5ae84a94b076312e0e2608b9",
+            "emailAddress": "jln@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=48&s=48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=24&s=24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=16&s=16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=32&s=32"
+            },
+            "displayName": "Jon Lauridsen",
+            "active": true,
+            "timeZone": "Europe/Copenhagen",
+            "accountType": "atlassian"
+          },
+          "body": "This story is surprisingly hard to nail down enough to get started on, but we had another round of information gathering today and maybe by the end of this post there’s enough clarity to move forward.\n\nh2. What to build\n\nThere are different ways we can approach developing this story. To display live customer data we must know if we want to display *account-wide* or *site-wide* data. We’ve found this has a big impact on what solution to choose.\n\nh3. 1) site-wide “Minimal effort”\n\nIf we choose the site-wide approach we can get away with making a select that returns columns {{url}}, {{size}}, and {{size_too_big_YN}} (implementation is to select from {{LINK_\\[site_id]#URL+CONTENT_LENGTH}} and {{SITE#MANDATORY_CRAWL_BY}} table columns).\n\nFor this approach we will need to add site-selector to the page because the underlying tables we read from are site-specific.\n\n(+)\n\n* Simple\n\n(-)\n\n* Wired into PFG/Oracle, coupling our architecture and preventing us from “owning our data” in the sense that changing schemas or other DB related activities are stuck in untested/untestable territory\n* We risk never introducing a separate datastore or other fundamental simplifications because each step in the epic will always feel like its not worth to do “the bigger solutions”\n\n* Not compatible with an account-wide solution\n* Provides no path forward for a history graph\n\n\n\nh3. 2) account-wide “Oracle DB as view”\n\nFor this we make a new table in Oracle, e.g. {{CONTENT_NOT_SCANNED_\\[account_id]}}, and our UI simply reads from it. The select to read the data is very simple (because all needed data is “just there” in the table). We then fill the table with data from our own API (it would internally pull data from {{LINK_\\[site_id]}} and {{SITE}} tables).\n\nWith this we can freely choose to do per-site and/or per-account views. \n\n(i) We have to consider some life-cycle events such as what happens when an account is deleted? What delay is acceptable between updating the underlying real data vs. our system getting up to date? What happens in case of emergency data-restore procedure, should this service be included in some documentation?\n\n(+) \n\n* Testable business-logic (i.e. determining which file is too big is in code, instead of inside an SQL statement)\n\n(-) \n\n* Have to manage one more deployable artefact\n\n\n\nh3. 3) account-wide “Performance-like separate UI”\n\nIn this version our API has its own data-store that no-one can access, and our UI asks the *api* for data. Our API internally synchronizes from {{LINK\\[site_id]}} and {{SITE}} tables just like #2 solution.\n\nGenerally same pro/cons as #2, plus:\n\n(+) \n\n* Pretty much as separated from PFG/Oracle as we can get, with this we own our own destiny\n\n(-) \n\n* Arguably increased product brittleness because now the UX is dependant on not just PFG+Oracle being available but also our API\n\n\n\n\n\nAnyone have changes/pros/cons to add? [~accountid:557058:f7da5e09-78ef-499b-ae1f-71a0982dd398] [~accountid:5c7fbcb1ea7c3712b6e21384] [~accountid:5b0feb77091e9f1711635c67] [~accountid:5a9524a7d0a6df4b53436a76] ",
+          "updateAuthor": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5ae84a94b076312e0e2608b9",
+            "name": "jln",
+            "key": "jln",
+            "accountId": "5ae84a94b076312e0e2608b9",
+            "emailAddress": "jln@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=48&s=48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=24&s=24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=16&s=16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=32&s=32"
+            },
+            "displayName": "Jon Lauridsen",
+            "active": true,
+            "timeZone": "Europe/Copenhagen",
+            "accountType": "atlassian"
+          },
+          "created": "2019-08-22T07:42:31.567-0500",
+          "updated": "2019-08-22T08:08:20.363-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/95900/comment/158100",
+          "id": "158100",
+          "author": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5ae84a94b076312e0e2608b9",
+            "name": "jln",
+            "key": "jln",
+            "accountId": "5ae84a94b076312e0e2608b9",
+            "emailAddress": "jln@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=48&s=48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=24&s=24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=16&s=16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=32&s=32"
+            },
+            "displayName": "Jon Lauridsen",
+            "active": true,
+            "timeZone": "Europe/Copenhagen",
+            "accountType": "atlassian"
+          },
+          "body": "h2. Update the epic\n\nIt’s been easy to miscommunicate details in the story because we are not anchored on *why* we’re doing the story. To clarify intent we propose to change the *epic* to reflect what outcomes are desired, in this case centred on wanting to validating a _Content Not Scanned_ page with customers to understand how that will help them get an overview of their sites.\n\n[~accountid:5a9524a7d0a6df4b53436a76] has more thoughts on this.",
+          "updateAuthor": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5ae84a94b076312e0e2608b9",
+            "name": "jln",
+            "key": "jln",
+            "accountId": "5ae84a94b076312e0e2608b9",
+            "emailAddress": "jln@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=48&s=48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=24&s=24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=16&s=16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=32&s=32"
+            },
+            "displayName": "Jon Lauridsen",
+            "active": true,
+            "timeZone": "Europe/Copenhagen",
+            "accountType": "atlassian"
+          },
+          "created": "2019-08-22T07:49:36.431-0500",
+          "updated": "2019-08-22T07:49:36.431-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/95900/comment/158445",
+          "id": "158445",
+          "author": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5a9524b6059b5c4b2dd15a75",
+            "name": "sha",
+            "key": "sha",
+            "accountId": "5a9524b6059b5c4b2dd15a75",
+            "emailAddress": "sha@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/bb40da308ebf01a2d9581112053256ce?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-3.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/bb40da308ebf01a2d9581112053256ce?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-3.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/bb40da308ebf01a2d9581112053256ce?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-3.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/bb40da308ebf01a2d9581112053256ce?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-3.png&size=32&s=32"
+            },
+            "displayName": "Søren Harder",
+            "active": true,
+            "timeZone": "Europe/Copenhagen",
+            "accountType": "atlassian"
+          },
+          "body": "I added test-files to [http://sec_pii_nationalid.siteimprove.systems/documentformat/large_files/index.html|http://sec_pii_nationalid.siteimprove.systems/documentformat/large_files/index.html] (account:6180663) and have crawled. Some of these files are still WIP.\n\n *Note\\! Both Robin and Batman seem to process file of size 14MB but not 16 MB so the expected difference between them does not exist.*\n\n I would like to add multiple test files in the ‘edge area’ (appr. 15 MB) to verify that all files are either processed or reported as not processed and none are both (as we have two different, independent checks, for when to process and when to report as not-processed). I will do this when we have a working prototype.",
+          "updateAuthor": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5a9524b6059b5c4b2dd15a75",
+            "name": "sha",
+            "key": "sha",
+            "accountId": "5a9524b6059b5c4b2dd15a75",
+            "emailAddress": "sha@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/bb40da308ebf01a2d9581112053256ce?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-3.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/bb40da308ebf01a2d9581112053256ce?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-3.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/bb40da308ebf01a2d9581112053256ce?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-3.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/bb40da308ebf01a2d9581112053256ce?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-3.png&size=32&s=32"
+            },
+            "displayName": "Søren Harder",
+            "active": true,
+            "timeZone": "Europe/Copenhagen",
+            "accountType": "atlassian"
+          },
+          "created": "2019-08-26T07:28:58.087-0500",
+          "updated": "2019-08-26T07:28:58.087-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/95900/comment/158471",
+          "id": "158471",
+          "author": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5ae84a94b076312e0e2608b9",
+            "name": "jln",
+            "key": "jln",
+            "accountId": "5ae84a94b076312e0e2608b9",
+            "emailAddress": "jln@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=48&s=48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=24&s=24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=16&s=16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=32&s=32"
+            },
+            "displayName": "Jon Lauridsen",
+            "active": true,
+            "timeZone": "Europe/Copenhagen",
+            "accountType": "atlassian"
+          },
+          "body": "h2. The approach favoured by developers\n\nWe have come to a conclusion on the approach to take with this story. We will:\n\n* Deploy a new API (e.g. a Typescript service deployed to Kubernetes).\n* API has an endpoint that provides data for the PFG Fancy UI.\n* Implementation of the API will be to get data from QA DB tables {{LINK_\\[site_id]}} and {{SITE}} per request.\n\nh3. What’s next?\n\nWe’ll write up the tasks for this story and re-refine it with the new knowledge. We’ll also update\n\n[~accountid:5a9524a7d0a6df4b53436a76] [~accountid:5a3a4eb57c44c538650a8b23] and [~accountid:5a9524b6059b5c4b2dd15a75]  about our direction forward. We’d like to get updated UX / copy / translations from [~accountid:5a3a4eb57c44c538650a8b23].\n\nMeeting attendants: [~accountid:557058:0e7f4691-bc7b-43df-9bb6-8b7157a2214c] [~accountid:5c7fbcb1ea7c3712b6e21384] [~accountid:5b0feb77091e9f1711635c67] [~accountid:5ae84a94b076312e0e2608b9] ",
+          "updateAuthor": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5ae84a94b076312e0e2608b9",
+            "name": "jln",
+            "key": "jln",
+            "accountId": "5ae84a94b076312e0e2608b9",
+            "emailAddress": "jln@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=48&s=48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=24&s=24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=16&s=16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=32&s=32"
+            },
+            "displayName": "Jon Lauridsen",
+            "active": true,
+            "timeZone": "Europe/Copenhagen",
+            "accountType": "atlassian"
+          },
+          "created": "2019-08-26T08:25:46.439-0500",
+          "updated": "2019-08-26T08:47:51.005-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/95900/comment/158482",
+          "id": "158482",
+          "author": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5a3a4eb57c44c538650a8b23",
+            "name": "eho",
+            "key": "eho",
+            "accountId": "5a3a4eb57c44c538650a8b23",
+            "emailAddress": "eho@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5a3a4eb57c44c538650a8b23/251c4842-3966-4662-9bcd-dd58e0edd126/128?size=48&s=48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5a3a4eb57c44c538650a8b23/251c4842-3966-4662-9bcd-dd58e0edd126/128?size=24&s=24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5a3a4eb57c44c538650a8b23/251c4842-3966-4662-9bcd-dd58e0edd126/128?size=16&s=16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5a3a4eb57c44c538650a8b23/251c4842-3966-4662-9bcd-dd58e0edd126/128?size=32&s=32"
+            },
+            "displayName": "Emil Holm",
+            "active": true,
+            "timeZone": "America/Chicago",
+            "accountType": "atlassian"
+          },
+          "body": "MVP design with copy uploaded",
+          "updateAuthor": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5a3a4eb57c44c538650a8b23",
+            "name": "eho",
+            "key": "eho",
+            "accountId": "5a3a4eb57c44c538650a8b23",
+            "emailAddress": "eho@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5a3a4eb57c44c538650a8b23/251c4842-3966-4662-9bcd-dd58e0edd126/128?size=48&s=48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5a3a4eb57c44c538650a8b23/251c4842-3966-4662-9bcd-dd58e0edd126/128?size=24&s=24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5a3a4eb57c44c538650a8b23/251c4842-3966-4662-9bcd-dd58e0edd126/128?size=16&s=16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5a3a4eb57c44c538650a8b23/251c4842-3966-4662-9bcd-dd58e0edd126/128?size=32&s=32"
+            },
+            "displayName": "Emil Holm",
+            "active": true,
+            "timeZone": "America/Chicago",
+            "accountType": "atlassian"
+          },
+          "created": "2019-08-26T09:06:41.166-0500",
+          "updated": "2019-08-26T09:06:41.166-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/issue/95900/comment/158493",
+          "id": "158493",
+          "author": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5a9524b6059b5c4b2dd15a75",
+            "name": "sha",
+            "key": "sha",
+            "accountId": "5a9524b6059b5c4b2dd15a75",
+            "emailAddress": "sha@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/bb40da308ebf01a2d9581112053256ce?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-3.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/bb40da308ebf01a2d9581112053256ce?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-3.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/bb40da308ebf01a2d9581112053256ce?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-3.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/bb40da308ebf01a2d9581112053256ce?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-3.png&size=32&s=32"
+            },
+            "displayName": "Søren Harder",
+            "active": true,
+            "timeZone": "Europe/Copenhagen",
+            "accountType": "atlassian"
+          },
+          "body": "Did we not agree on a static text to inform about the other situations where files may not be scanned?",
+          "updateAuthor": {
+            "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5a9524b6059b5c4b2dd15a75",
+            "name": "sha",
+            "key": "sha",
+            "accountId": "5a9524b6059b5c4b2dd15a75",
+            "emailAddress": "sha@siteimprove.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/bb40da308ebf01a2d9581112053256ce?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-3.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/bb40da308ebf01a2d9581112053256ce?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-3.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/bb40da308ebf01a2d9581112053256ce?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-3.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/bb40da308ebf01a2d9581112053256ce?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSH-3.png&size=32&s=32"
+            },
+            "displayName": "Søren Harder",
+            "active": true,
+            "timeZone": "Europe/Copenhagen",
+            "accountType": "atlassian"
+          },
+          "created": "2019-08-26T10:24:49.323-0500",
+          "updated": "2019-08-26T10:24:49.323-0500",
+          "jsdPublic": true
+        }
+      ],
+      "maxResults": 12,
+      "total": 12,
+      "startAt": 0
+    },
+    "statuscategorychangedate": "2019-08-27T05:49:39.231-0500",
+    "fixVersions": [],
+    "customfield_13500": null,
+    "customfield_14380": null,
+    "customfield_14381": null,
+    "customfield_14384": null,
+    "customfield_14385": null,
+    "customfield_14382": null,
+    "customfield_14383": null,
+    "customfield_14388": null,
+    "customfield_14389": null,
+    "customfield_14386": null,
+    "customfield_14387": null,
+    "priority": {
+      "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/priority/4",
+      "iconUrl": "https://siteimprove-wgs.atlassian.net/images/icons/priorities/trivial.svg",
+      "name": "Normal priority",
+      "id": "4"
+    },
+    "customfield_12520": null,
+    "timeestimate": null,
+    "status": {
+      "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/status/12181",
+      "description": "This status is managed internally by Jira Software",
+      "iconUrl": "https://siteimprove-wgs.atlassian.net/",
+      "name": "Todo",
+      "id": "12181",
+      "statusCategory": {
+        "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "In Progress"
+      }
+    },
+    "customfield_14370": null,
+    "customfield_14373": null,
+    "customfield_14371": null,
+    "customfield_14372": null,
+    "customfield_14377": null,
+    "customfield_14378": null,
+    "customfield_14375": null,
+    "customfield_14376": [],
+    "customfield_13600": null,
+    "customfield_13713": null,
+    "customfield_13712": null,
+    "customfield_13715": null,
+    "customfield_13714": null,
+    "aggregatetimeestimate": null,
+    "customfield_13717": null,
+    "customfield_13716": null,
+    "creator": {
+      "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5a9524a7d0a6df4b53436a76",
+      "name": "col",
+      "key": "col",
+      "accountId": "5a9524a7d0a6df4b53436a76",
+      "emailAddress": "col@siteimprove.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=48&s=48",
+        "24x24": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=24&s=24",
+        "16x16": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=16&s=16",
+        "32x32": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=32&s=32"
+      },
+      "displayName": "Charlotte Olsen",
+      "active": true,
+      "timeZone": "America/Chicago",
+      "accountType": "atlassian"
+    },
+    "customfield_14362": null,
+    "customfield_14000": null,
+    "customfield_14360": null,
+    "customfield_14361": [
+      {
+        "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/customFieldOption/11852",
+        "value": "All languages",
+        "id": "11852"
+      }
+    ],
+    "customfield_14366": null,
+    "customfield_14003": null,
+    "customfield_14004": null,
+    "customfield_14367": null,
+    "customfield_14001": null,
+    "customfield_14364": null,
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_14002": null,
+    "customfield_14365": null,
+    "customfield_13711": null,
+    "customfield_14368": null,
+    "customfield_13710": null,
+    "customfield_14369": null,
+    "customfield_13702": null,
+    "customfield_13701": null,
+    "customfield_13704": null,
+    "customfield_13703": null,
+    "customfield_13706": null,
+    "customfield_13705": null,
+    "customfield_13708": null,
+    "customfield_13707": null,
+    "customfield_13709": null,
+    "customfield_14351": null,
+    "customfield_14352": {
+      "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/customFieldOption/11836",
+      "value": "1 month",
+      "id": "11836"
+    },
+    "timespent": null,
+    "customfield_14350": null,
+    "customfield_13020": "{}",
+    "customfield_14355": null,
+    "customfield_14356": null,
+    "customfield_14353": null,
+    "customfield_14354": null,
+    "customfield_14359": null,
+    "aggregatetimespent": null,
+    "customfield_14357": null,
+    "customfield_13700": null,
+    "customfield_14358": null,
+    "workratio": -1,
+    "customfield_14461": null,
+    "customfield_14462": null,
+    "customfield_14341": null,
+    "created": "2019-08-19T04:05:57.357-0500",
+    "customfield_14460": null,
+    "customfield_14344": null,
+    "customfield_14102": null,
+    "customfield_14465": null,
+    "customfield_14466": null,
+    "customfield_14103": null,
+    "customfield_14345": null,
+    "customfield_14342": null,
+    "customfield_14100": null,
+    "customfield_14463": null,
+    "customfield_14343": null,
+    "customfield_14101": null,
+    "customfield_14348": null,
+    "customfield_14349": null,
+    "customfield_14346": null,
+    "customfield_14467": null,
+    "customfield_14104": null,
+    "customfield_12721": null,
+    "customfield_10421": null,
+    "customfield_14347": [
+      {
+        "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/customFieldOption/11820",
+        "value": "All languages",
+        "id": "11820"
+      }
+    ],
+    "customfield_10422": "2019-08-19T05:45:58.001-0500",
+    "customfield_14105": null,
+    "customfield_13801": null,
+    "customfield_13800": null,
+    "customfield_14339": null,
+    "customfield_14450": null,
+    "customfield_14451": null,
+    "customfield_14333": null,
+    "customfield_14334": null,
+    "customfield_14331": null,
+    "customfield_14452": null,
+    "customfield_14332": null,
+    "customfield_14453": null,
+    "customfield_14458": null,
+    "customfield_14338": null,
+    "customfield_14459": null,
+    "customfield_14456": null,
+    "customfield_14335": null,
+    "customfield_14336": null,
+    "customfield_14457": null,
+    "security": null,
+    "customfield_14449": null,
+    "customfield_14328": null,
+    "customfield_14329": null,
+    "attachment": [
+      {
+        "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/attachment/95996",
+        "id": "95996",
+        "filename": "FilesNotScanned_MVP Copy.png",
+        "author": {
+          "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/user?accountId=5a3a4eb57c44c538650a8b23",
+          "name": "eho",
+          "key": "eho",
+          "accountId": "5a3a4eb57c44c538650a8b23",
+          "emailAddress": "eho@siteimprove.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5a3a4eb57c44c538650a8b23/251c4842-3966-4662-9bcd-dd58e0edd126/128?size=48&s=48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5a3a4eb57c44c538650a8b23/251c4842-3966-4662-9bcd-dd58e0edd126/128?size=24&s=24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5a3a4eb57c44c538650a8b23/251c4842-3966-4662-9bcd-dd58e0edd126/128?size=16&s=16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5a3a4eb57c44c538650a8b23/251c4842-3966-4662-9bcd-dd58e0edd126/128?size=32&s=32"
+          },
+          "displayName": "Emil Holm",
+          "active": true,
+          "timeZone": "America/Chicago",
+          "accountType": "atlassian"
+        },
+        "created": "2019-08-26T09:05:51.997-0500",
+        "size": 151849,
+        "mimeType": "image/png",
+        "content": "https://siteimprove-wgs.atlassian.net/secure/attachment/95996/FilesNotScanned_MVP+Copy.png",
+        "thumbnail": "https://siteimprove-wgs.atlassian.net/secure/thumbnail/95996/FilesNotScanned_MVP+Copy.png"
+      }
+    ],
+    "customfield_14440": null,
+    "customfield_12020": null,
+    "customfield_14201": null,
+    "customfield_14202": null,
+    "customfield_14320": null,
+    "customfield_14441": null,
+    "customfield_14200": null,
+    "customfield_14442": null,
+    "customfield_14447": null,
+    "customfield_14326": null,
+    "customfield_14327": null,
+    "customfield_14448": null,
+    "customfield_10520": null,
+    "customfield_14203": null,
+    "customfield_12820": null,
+    "customfield_14445": null,
+    "customfield_14325": null,
+    "customfield_14446": null,
+    "customfield_14319": null,
+    "customfield_13900": null,
+    "customfield_14438": {
+      "self": "https://siteimprove-wgs.atlassian.net/rest/api/2/customFieldOption/12072",
+      "value": "Excellent",
+      "id": "12072"
+    },
+    "customfield_14439": null
+  }
+}
