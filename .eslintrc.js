@@ -9,13 +9,18 @@ module.exports = {
     'node': true
   },
   'plugins': ['@typescript-eslint', 'import'],
-  'extends': ['plugin:@typescript-eslint/recommended', 'plugin:import/recommended', 'plugin:import/typescript'],
+  'extends': [
+    'plugin:@typescript-eslint/recommended',
+    'plugin:import/recommended',
+    'plugin:import/typescript'
+  ],
   'rules': {
-    '@typescript-eslint/restrict-plus-operands': 'error',
+    '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-use-before-define': ['error', 'nofunc'],
-    'indent': ['error', 2],
-    'quotes': ['error', 'double'],
-    'semi': ['error', 'never'],
+    '@typescript-eslint/restrict-plus-operands': 'error',
     'import/order': ['error', { 'newlines-between': 'always' }],
+    'indent': ['error', 2],
+    'quotes': ['error', 'double', { avoidEscape: true }],
+    'semi': ['error', 'never'],
   }
 }

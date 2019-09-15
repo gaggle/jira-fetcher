@@ -1,0 +1,505 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "95900",
+  "self": "https://foo.atlassian.net/rest/api/2/issue/95900",
+  "key": "STORY-1",
+  "fields": {
+    "customfield_14432": {
+      "self": "https://foo.atlassian.net/rest/api/2/customFieldOption/12050",
+      "value": "Global",
+      "id": "12050"
+    },
+    "customfield_14433": null,
+    "customfield_14430": null,
+    "customfield_14431": null,
+    "customfield_14436": null,
+    "resolution": null,
+    "customfield_14437": null,
+    "customfield_14434": null,
+    "customfield_14435": null,
+    "customfield_14429": [],
+    "customfield_12920": {
+      "hasEpicLinkFieldDependency": false,
+      "showField": false,
+      "nonEditableReason": {
+        "reason": "PLUGIN_LICENSE_ERROR",
+        "message": "Portfolio for Jira must be licensed for the Parent Link to be available."
+      }
+    },
+    "customfield_14427": null,
+    "customfield_14428": {
+      "self": "https://foo.atlassian.net/rest/api/2/customFieldOption/12046",
+      "value": "No strict deadline",
+      "id": "12046"
+    },
+    "lastViewed": "2019-09-02T02:14:23.283-0500",
+    "customfield_14421": null,
+    "customfield_14420": null,
+    "customfield_14425": null,
+    "customfield_14423": null,
+    "customfield_14424": null,
+    "labels": [],
+    "customfield_14418": null,
+    "customfield_11820": "1|hzq6a7:007qji",
+    "customfield_14419": null,
+    "aggregatetimeoriginalestimate": null,
+    "issuelinks": [
+      {
+        "id": "75926",
+        "self": "https://foo.atlassian.net/rest/api/2/issueLink/75926",
+        "type": {
+          "id": "10500",
+          "name": "Blocks",
+          "inward": "blocked by",
+          "outward": "is blocking",
+          "self": "https://foo.atlassian.net/rest/api/2/issueLinkType/10500"
+        },
+        "inwardIssue": {
+          "id": "96286",
+          "key": "STORY-2",
+          "self": "https://foo.atlassian.net/rest/api/2/issue/96286",
+          "fields": {
+            "summary": "Another story",
+            "status": {
+              "self": "https://foo.atlassian.net/rest/api/2/status/10034",
+              "description": "",
+              "iconUrl": "https://foo.atlassian.net/images/icons/subtask.gif",
+              "name": "Backlog",
+              "id": "10034",
+              "statusCategory": {
+                "self": "https://foo.atlassian.net/rest/api/2/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://foo.atlassian.net/rest/api/2/priority/4",
+              "iconUrl": "https://foo.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "Normal priority",
+              "id": "4"
+            },
+            "issuetype": {
+              "self": "https://foo.atlassian.net/rest/api/2/issuetype/5",
+              "id": "5",
+              "description": "A user story. Created by JIRA Software - do not edit or delete.",
+              "iconUrl": "https://foo.atlassian.net/secure/viewavatar?size=medium&avatarId=11035&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 11035
+            }
+          }
+        }
+      }
+    ],
+    "assignee": null,
+    "components": [],
+    "customfield_13200": null,
+    "customfield_14414": null,
+    "customfield_14415": null,
+    "customfield_14407": null,
+    "customfield_14408": null,
+    "customfield_10721": null,
+    "customfield_14405": null,
+    "customfield_14406": null,
+    "subtasks": [
+      {
+        "id": "96284",
+        "key": "STORY-3",
+        "self": "https://foo.atlassian.net/rest/api/2/issue/96284",
+        "fields": {
+          "summary": "Add site picker",
+          "status": {
+            "self": "https://foo.atlassian.net/rest/api/2/status/10034",
+            "description": "",
+            "iconUrl": "https://foo.atlassian.net/images/icons/subtask.gif",
+            "name": "Backlog",
+            "id": "10034",
+            "statusCategory": {
+              "self": "https://foo.atlassian.net/rest/api/2/statuscategory/2",
+              "id": 2,
+              "key": "new",
+              "colorName": "blue-gray",
+              "name": "To Do"
+            }
+          },
+          "priority": {
+            "self": "https://foo.atlassian.net/rest/api/2/priority/4",
+            "iconUrl": "https://foo.atlassian.net/images/icons/priorities/trivial.svg",
+            "name": "Normal priority",
+            "id": "4"
+          },
+          "issuetype": {
+            "self": "https://foo.atlassian.net/rest/api/2/issuetype/8",
+            "id": "8",
+            "description": "Sub-task",
+            "iconUrl": "https://foo.atlassian.net/secure/viewavatar?size=medium&avatarId=11036&avatarType=issuetype",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 11036
+          }
+        }
+      }
+    ],
+    "reporter": {
+      "self": "https://foo.atlassian.net/rest/api/2/user?accountId=5a9524a7d0a6df4b53436a76",
+      "name": "foo",
+      "key": "foo",
+      "accountId": "5a9524a7d0a6df4b53436a76",
+      "emailAddress": "foo@foo.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=48&s=48",
+        "24x24": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=24&s=24",
+        "16x16": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=16&s=16",
+        "32x32": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=32&s=32"
+      },
+      "displayName": "Name Lastname",
+      "active": true,
+      "timeZone": "America/Chicago",
+      "accountType": "atlassian"
+    },
+    "customfield_14404": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "votes": {
+      "self": "https://foo.atlassian.net/rest/api/2/issue/STORY-1/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    },
+    "issuetype": {
+      "self": "https://foo.atlassian.net/rest/api/2/issuetype/5",
+      "id": "5",
+      "description": "A user story. Created by JIRA Software - do not edit or delete.",
+      "iconUrl": "https://foo.atlassian.net/secure/viewavatar?size=medium&avatarId=11035&avatarType=issuetype",
+      "name": "Story",
+      "subtask": false,
+      "avatarId": 11035
+    },
+    "project": {
+      "self": "https://foo.atlassian.net/rest/api/2/project/14700",
+      "id": "14700",
+      "key": "STORY",
+      "name": "Story Product",
+      "projectTypeKey": "software",
+      "simplified": false,
+      "avatarUrls": {
+        "48x48": "https://foo.atlassian.net/secure/projectavatar?avatarId=12523",
+        "24x24": "https://foo.atlassian.net/secure/projectavatar?size=small&s=small&avatarId=12523",
+        "16x16": "https://foo.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&avatarId=12523",
+        "32x32": "https://foo.atlassian.net/secure/projectavatar?size=medium&s=medium&avatarId=12523"
+      }
+    },
+    "customfield_11120": "EPIC-1",
+    "customfield_13300": null,
+    "resolutiondate": null,
+    "watches": {
+      "self": "https://foo.atlassian.net/rest/api/2/issue/STORY-1/watchers",
+      "watchCount": 0,
+      "isWatching": false
+    },
+    "customfield_10020": null,
+    "updated": "2019-09-02T02:15:09.987-0500",
+    "timeoriginalestimate": null,
+    "description": "First some text\n\nh2. Headline\n\n* *Highlight*\n\nsed dignissimos qui minima beatae adipisci aut perspiciatis.\n \nsed et quia ducimus.\n",
+    "timetracking": {},
+    "summary": "Summary of STORY-1",
+    "customfield_12420": null,
+    "customfield_10120": null,
+    "customfield_10000": null,
+    "customfield_10001": null,
+    "customfield_10002": null,
+    "customfield_10003": null,
+    "customfield_10004": null,
+    "environment": null,
+    "duedate": null,
+    "comment": {
+      "comments": [
+        {
+          "self": "https://foo.atlassian.net/rest/api/2/issue/95900/comment/157596",
+          "id": "157596",
+          "author": {
+            "self": "https://foo.atlassian.net/rest/api/2/user?accountId=5ae84a94b076312e0e2608b9",
+            "name": "foo",
+            "key": "foo",
+            "accountId": "5ae84a94b076312e0e2608b9",
+            "emailAddress": "foo@foo.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=48&s=48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=24&s=24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=16&s=16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=32&s=32"
+            },
+            "displayName": "Name Lastname",
+            "active": true,
+            "timeZone": "Europe/Copenhagen",
+            "accountType": "atlassian"
+          },
+          "body": "Suggestion to rephrase title to something sensible :D",
+          "updateAuthor": {
+            "self": "https://foo.atlassian.net/rest/api/2/user?accountId=5ae84a94b076312e0e2608b9",
+            "name": "foo",
+            "key": "foo",
+            "accountId": "5ae84a94b076312e0e2608b9",
+            "emailAddress": "foo@foo.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=48&s=48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=24&s=24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=16&s=16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-24c0333e3c64/128?size=32&s=32"
+            },
+            "displayName": "Name Lastname",
+            "active": true,
+            "timeZone": "Europe/Copenhagen",
+            "accountType": "atlassian"
+          },
+          "created": "2019-08-19T05:45:58.001-0500",
+          "updated": "2019-08-19T05:45:58.001-0500",
+          "jsdPublic": true
+        }
+      ],
+      "maxResults": 12,
+      "total": 12,
+      "startAt": 0
+    },
+    "statuscategorychangedate": "2019-08-27T05:49:39.231-0500",
+    "fixVersions": [],
+    "customfield_13500": null,
+    "customfield_14380": null,
+    "customfield_14381": null,
+    "customfield_14384": null,
+    "customfield_14385": null,
+    "customfield_14382": null,
+    "customfield_14383": null,
+    "customfield_14388": null,
+    "customfield_14389": null,
+    "customfield_14386": null,
+    "customfield_14387": null,
+    "priority": {
+      "self": "https://foo.atlassian.net/rest/api/2/priority/4",
+      "iconUrl": "https://foo.atlassian.net/images/icons/priorities/trivial.svg",
+      "name": "Normal priority",
+      "id": "4"
+    },
+    "customfield_12520": null,
+    "timeestimate": null,
+    "status": {
+      "self": "https://foo.atlassian.net/rest/api/2/status/12181",
+      "description": "This status is managed internally by Jira Software",
+      "iconUrl": "https://foo.atlassian.net/",
+      "name": "Todo",
+      "id": "12181",
+      "statusCategory": {
+        "self": "https://foo.atlassian.net/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "In Progress"
+      }
+    },
+    "customfield_14370": null,
+    "customfield_14373": null,
+    "customfield_14371": null,
+    "customfield_14372": null,
+    "customfield_14377": null,
+    "customfield_14378": null,
+    "customfield_14375": null,
+    "customfield_14376": [],
+    "customfield_13600": null,
+    "customfield_13713": null,
+    "customfield_13712": null,
+    "customfield_13715": null,
+    "customfield_13714": null,
+    "aggregatetimeestimate": null,
+    "customfield_13717": null,
+    "customfield_13716": null,
+    "creator": {
+      "self": "https://foo.atlassian.net/rest/api/2/user?accountId=5a9524a7d0a6df4b53436a76",
+      "name": "foo",
+      "key": "foo",
+      "accountId": "5a9524a7d0a6df4b53436a76",
+      "emailAddress": "foo@foo.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=48&s=48",
+        "24x24": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=24&s=24",
+        "16x16": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=16&s=16",
+        "32x32": "https://secure.gravatar.com/avatar/f0412ac2b7ae62761307b882aacec914?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCO-3.png&size=32&s=32"
+      },
+      "displayName": "Charlotte Olsen",
+      "active": true,
+      "timeZone": "America/Chicago",
+      "accountType": "atlassian"
+    },
+    "customfield_14362": null,
+    "customfield_14000": null,
+    "customfield_14360": null,
+    "customfield_14361": [
+      {
+        "self": "https://foo.atlassian.net/rest/api/2/customFieldOption/11852",
+        "value": "All languages",
+        "id": "11852"
+      }
+    ],
+    "customfield_14366": null,
+    "customfield_14003": null,
+    "customfield_14004": null,
+    "customfield_14367": null,
+    "customfield_14001": null,
+    "customfield_14364": null,
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_14002": null,
+    "customfield_14365": null,
+    "customfield_13711": null,
+    "customfield_14368": null,
+    "customfield_13710": null,
+    "customfield_14369": null,
+    "customfield_13702": null,
+    "customfield_13701": null,
+    "customfield_13704": null,
+    "customfield_13703": null,
+    "customfield_13706": null,
+    "customfield_13705": null,
+    "customfield_13708": null,
+    "customfield_13707": null,
+    "customfield_13709": null,
+    "customfield_14351": null,
+    "customfield_14352": {
+      "self": "https://foo.atlassian.net/rest/api/2/customFieldOption/11836",
+      "value": "1 month",
+      "id": "11836"
+    },
+    "timespent": null,
+    "customfield_14350": null,
+    "customfield_13020": "{}",
+    "customfield_14355": null,
+    "customfield_14356": null,
+    "customfield_14353": null,
+    "customfield_14354": null,
+    "customfield_14359": null,
+    "aggregatetimespent": null,
+    "customfield_14357": null,
+    "customfield_13700": null,
+    "customfield_14358": null,
+    "workratio": -1,
+    "customfield_14461": null,
+    "customfield_14462": null,
+    "customfield_14341": null,
+    "created": "2019-08-19T04:05:57.357-0500",
+    "customfield_14460": null,
+    "customfield_14344": null,
+    "customfield_14102": null,
+    "customfield_14465": null,
+    "customfield_14466": null,
+    "customfield_14103": null,
+    "customfield_14345": null,
+    "customfield_14342": null,
+    "customfield_14100": null,
+    "customfield_14463": null,
+    "customfield_14343": null,
+    "customfield_14101": null,
+    "customfield_14348": null,
+    "customfield_14349": null,
+    "customfield_14346": null,
+    "customfield_14467": null,
+    "customfield_14104": null,
+    "customfield_12721": null,
+    "customfield_10421": null,
+    "customfield_14347": [
+      {
+        "self": "https://foo.atlassian.net/rest/api/2/customFieldOption/11820",
+        "value": "All languages",
+        "id": "11820"
+      }
+    ],
+    "customfield_10422": "2019-08-19T05:45:58.001-0500",
+    "customfield_14105": null,
+    "customfield_13801": null,
+    "customfield_13800": null,
+    "customfield_14339": null,
+    "customfield_14450": null,
+    "customfield_14451": null,
+    "customfield_14333": null,
+    "customfield_14334": null,
+    "customfield_14331": null,
+    "customfield_14452": null,
+    "customfield_14332": null,
+    "customfield_14453": null,
+    "customfield_14458": null,
+    "customfield_14338": null,
+    "customfield_14459": null,
+    "customfield_14456": null,
+    "customfield_14335": null,
+    "customfield_14336": null,
+    "customfield_14457": null,
+    "security": null,
+    "customfield_14449": null,
+    "customfield_14328": null,
+    "customfield_14329": null,
+    "attachment": [
+      {
+        "self": "https://foo.atlassian.net/rest/api/2/attachment/95996",
+        "id": "95996",
+        "filename": "Attachment.png",
+        "author": {
+          "self": "https://foo.atlassian.net/rest/api/2/user?accountId=5a3a4eb57c44c538650a8b23",
+          "name": "foo",
+          "key": "foo",
+          "accountId": "5a3a4eb57c44c538650a8b23",
+          "emailAddress": "foo@foo.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5a3a4eb57c44c538650a8b23/251c4842-3966-4662-9bcd-dd58e0edd126/128?size=48&s=48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5a3a4eb57c44c538650a8b23/251c4842-3966-4662-9bcd-dd58e0edd126/128?size=24&s=24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5a3a4eb57c44c538650a8b23/251c4842-3966-4662-9bcd-dd58e0edd126/128?size=16&s=16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5a3a4eb57c44c538650a8b23/251c4842-3966-4662-9bcd-dd58e0edd126/128?size=32&s=32"
+          },
+          "displayName": "Name Lastname",
+          "active": true,
+          "timeZone": "America/Chicago",
+          "accountType": "atlassian"
+        },
+        "created": "2019-08-26T09:05:51.997-0500",
+        "size": 151849,
+        "mimeType": "image/png",
+        "content": "https://foo.atlassian.net/secure/attachment/95996/FilesNotScanned_MVP+Copy.png",
+        "thumbnail": "https://foo.atlassian.net/secure/thumbnail/95996/FilesNotScanned_MVP+Copy.png"
+      }
+    ],
+    "customfield_14440": null,
+    "customfield_12020": null,
+    "customfield_14201": null,
+    "customfield_14202": null,
+    "customfield_14320": null,
+    "customfield_14441": null,
+    "customfield_14200": null,
+    "customfield_14442": null,
+    "customfield_14447": null,
+    "customfield_14326": null,
+    "customfield_14327": null,
+    "customfield_14448": null,
+    "customfield_10520": null,
+    "customfield_14203": null,
+    "customfield_12820": null,
+    "customfield_14445": null,
+    "customfield_14325": null,
+    "customfield_14446": null,
+    "customfield_14319": null,
+    "customfield_13900": null,
+    "customfield_14438": {
+      "self": "https://foo.atlassian.net/rest/api/2/customFieldOption/12072",
+      "value": "Excellent",
+      "id": "12072"
+    },
+    "customfield_14439": null
+  }
+}

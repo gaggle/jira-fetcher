@@ -1,34 +1,37 @@
 {
-  "name": "jira-printer",
+  "name": "simple-jira-client",
   "version": "0.0.0",
-  "description": "Print Jira issues",
+  "description": "Easily access Jira with this simple Jira API client",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "bin": {
-    "jiraprint": "build/cli.js"
+    "simplejira": "build/cli.js"
   },
   "scripts": {
-    "start": "nodemon -e .ts -w src -x 'npm run build && node build/cli.js'",
-    "build": "npm run clean && tsc -p . && cp src/svg-templating/*.liquid build/svg-templating/",
+    "start": "ts-node src/cli.ts",
     "test": "nyc mocha && tsc --noEmit && npm run lint",
-    "test:watch": "nodemon -e .ts -w src -x 'npm test'",
+    "dev": "npm run clean && tsc -p . -w",
     "clean": "rm -rf .nyc_output build coverage",
     "lint": "eslint --ext .ts src",
     "fix": "npm run lint -- --fix"
   },
   "author": "Jon Lauridsen <mail@jonlauridsen.com>",
   "license": "MIT",
+  "dependencies": {
+    "commander": "^3.0.0",
+    "dree": "^2.1.11",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
   "devDependencies": {
-    "@types/commonmark": "^0.27.4",
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.7.2",
+    "@types/request-promise-native": "^1.0.16",
     "@typescript-eslint/eslint-plugin": "^2.1.0",
     "@typescript-eslint/parser": "^2.1.0",
     "assert": "^2.0.0",
-    "commander": "^3.0.0",
-    "commonmark": "^0.29.0",
     "eslint": "^6.2.2",
     "eslint-plugin-import": "^2.18.2",
-    "liquidjs": "^9.0.0",
     "mocha": "^6.2.0",
     "nodemon": "^1.19.2",
     "nyc": "^14.1.1",
@@ -52,8 +55,9 @@
       "html",
       "text"
     ],
-    "require": "ts-node/register",
-    "include": ["src"],
+    "include": [
+      "src"
+    ],
     "all": true
   }
 }
