@@ -5,11 +5,13 @@ import request from "request-promise-native"
 import { Base64Token, BasicAuth, UserAndToken } from "./client-libs/basic-auth-behavior"
 import { ParsedIssue } from "./types/ParsedIssue"
 import { readJson } from "./client-libs/mock-helpers"
-import { SimpleJiraClient } from "./types"
+import { Pingable, SimpleJiraClient } from "./types"
 import { RawIssue } from "./types/RawIssue"
 import { RawIssueMetadata } from "./types/RawIssueMetadata"
 
-type ParsedJiraClient = SimpleJiraClient<ParsedIssue, void>
+type ParsedJiraClient = SimpleJiraClient<ParsedIssue, void> & Pingable
+
+type RawMypermissions = { permissions: { [key: string]: { [key: string]: string } } }
 
 export class ParsedJiraBasicAuth implements ParsedJiraClient {
   private readonly url: string
@@ -29,11 +31,28 @@ export class ParsedJiraBasicAuth implements ParsedJiraClient {
     await this.getApi2<RawIssueMetadata>(`issue/${key}/metadata`)
   }
 
+  async ping (): Promise<boolean> {
+    try {
+      await this.getApi3<RawMypermissions>("mypermissions")
+      return true
+    } catch (err) {
+      return false
+    }
+  }
+
   private async getApi2<T> (path: string): Promise<T> {
     return await request({
       headers: { Authorization: `Basic ${this.token}`, "Content-Type": "application/json" },
       json: true,
       url: `${this.url}/rest/api/2/${path}`,
+    }) as T
+  }
+
+  private async getApi3<T> (path: string): Promise<T> {
+    return await request({
+      headers: { Authorization: `Basic ${this.token}`, "Content-Type": "application/json" },
+      json: true,
+      url: `${this.url}/rest/api/3/${path}`,
     }) as T
   }
 
