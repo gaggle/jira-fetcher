@@ -1,7 +1,7 @@
 export interface SimpleJiraClient<Issue, Schema> {
-  getIssue (key: string): Promise<Issue>;
+  getIssue(key: string): Promise<Issue>;
 
-  getSchema (key: string): Promise<Schema>;
+  getSchema(key: string): Promise<Schema>;
 }
 
 export interface Pingable {
@@ -11,7 +11,7 @@ export interface Pingable {
    * * invalid user credentials
    * Otherwise return true
    */
-  ping (): Promise<boolean>;
+  ping(): Promise<boolean>;
 }
 
 export type URL = string;
