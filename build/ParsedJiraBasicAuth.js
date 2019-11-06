@@ -19,11 +19,27 @@ class ParsedJiraBasicAuth {
     async getSchema(key) {
         await this.getApi2(`issue/${key}/metadata`);
     }
+    async ping() {
+        try {
+            await this.getApi3("mypermissions");
+            return true;
+        }
+        catch (err) {
+            return false;
+        }
+    }
     async getApi2(path) {
         return await request_promise_native_1.default({
             headers: { Authorization: `Basic ${this.token}`, "Content-Type": "application/json" },
             json: true,
             url: `${this.url}/rest/api/2/${path}`,
+        });
+    }
+    async getApi3(path) {
+        return await request_promise_native_1.default({
+            headers: { Authorization: `Basic ${this.token}`, "Content-Type": "application/json" },
+            json: true,
+            url: `${this.url}/rest/api/3/${path}`,
         });
     }
     converter(issue) {
