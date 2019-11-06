@@ -1,0 +1,47 @@
+{
+  "permissions": {
+    "VIEW_WORKFLOW_READONLY": {
+      "id": "45",
+      "key": "VIEW_WORKFLOW_READONLY",
+      "name": "View Read-Only Workflow",
+      "type": "PROJECT",
+      "description": "admin.permissions.descriptions.VIEW_WORKFLOW_READONLY",
+      "havePermission": true,
+      "deprecatedKey": true
+    },
+    "CREATE_ISSUES": {
+      "id": "11",
+      "key": "CREATE_ISSUES",
+      "name": "Create Issues",
+      "type": "PROJECT",
+      "description": "Ability to create issues.",
+      "havePermission": true
+    },
+    "ADD_COMMENTS": {
+      "id": "15",
+      "key": "ADD_COMMENTS",
+      "name": "Add Comments",
+      "type": "PROJECT",
+      "description": "Ability to comment on issues.",
+      "havePermission": true
+    },
+    "CREATE_ISSUE": {
+      "id": "11",
+      "key": "CREATE_ISSUE",
+      "name": "Create Issues",
+      "type": "PROJECT",
+      "description": "Ability to create issues.",
+      "havePermission": true,
+      "deprecatedKey": true
+    },
+    "ASSIGN_ISSUE": {
+      "id": "13",
+      "key": "ASSIGN_ISSUE",
+      "name": "Assign Issues",
+      "type": "PROJECT",
+      "description": "Ability to assign issues to other people.",
+      "havePermission": true,
+      "deprecatedKey": true
+    }
+  }
+}
