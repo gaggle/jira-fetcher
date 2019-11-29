@@ -1,0 +1,26 @@
+{
+  "self": "https://siteimprove-wgs.atlassian.net/rest/api/3/user?accountId=ehfuhfjkhjkfhdjkfhsjkd",
+  "key": "foo",
+  "accountId": "ehfuhfjkhjkfhdjkfhsjkd",
+  "name": "foo",
+  "emailAddress": "foo@example.com",
+  "avatarUrls": {
+    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-asdasadasads/128?size=48&s=48",
+    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-asdasadasads/128?size=24&s=24",
+    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-asdasadasads/128?size=16&s=16",
+    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae84a94b076312e0e2608b9/4b699535-4ce4-43df-9c4f-asdasadasads/128?size=32&s=32"
+  },
+  "displayName": "Foo Bar",
+  "active": true,
+  "timeZone": "Europe/Copenhagen",
+  "locale": "en_US",
+  "groups": {
+    "size": 7,
+    "items": []
+  },
+  "applicationRoles": {
+    "size": 1,
+    "items": []
+  },
+  "expand": "groups,applicationRoles"
+}

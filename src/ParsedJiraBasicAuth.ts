@@ -11,7 +11,7 @@ import { RawIssueMetadata } from "./types/RawIssueMetadata"
 
 type ParsedJiraClient = SimpleJiraClient<ParsedIssue, void> & Pingable
 
-type RawMypermissions = { permissions: { [key: string]: { [key: string]: string } } }
+type RawMyself = { key: string; name: string }
 
 export class ParsedJiraBasicAuth implements ParsedJiraClient {
   private readonly url: string
@@ -33,7 +33,7 @@ export class ParsedJiraBasicAuth implements ParsedJiraClient {
 
   async ping (): Promise<boolean> {
     try {
-      await this.getApi3<RawMypermissions>("mypermissions")
+      await this.getApi3<RawMyself>("myself")
       return true
     } catch (err) {
       return false
