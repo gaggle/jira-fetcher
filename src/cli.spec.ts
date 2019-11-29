@@ -132,7 +132,7 @@ describe("cli", () => {
   }
 
   function getCmd (): string {
-    return `/Users/gaggle/Projects/simple-jira-client/node_modules/.bin/ts-node src/cli.ts ${args.join(" ")}`
+    return `ts-node src/cli.ts ${args.join(" ")}`
   }
 })
 
