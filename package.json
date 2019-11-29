@@ -11,6 +11,7 @@
     "start": "ts-node src/cli.ts",
     "test": "nyc mocha && tsc --noEmit && npm run lint",
     "dev": "npm run clean && tsc -p . -w",
+    "build": "tsc -p .",
     "clean": "rm -rf .nyc_output build coverage",
     "lint": "eslint --ext .ts src",
     "fix": "npm run lint -- --fix"
