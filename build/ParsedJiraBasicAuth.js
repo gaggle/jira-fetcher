@@ -21,7 +21,7 @@ class ParsedJiraBasicAuth {
     }
     async ping() {
         try {
-            await this.getApi3("mypermissions");
+            await this.getApi3("myself");
             return true;
         }
         catch (err) {
